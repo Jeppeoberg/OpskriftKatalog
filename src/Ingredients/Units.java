@@ -1,5 +1,5 @@
 package Ingredients;
 
 public enum Units {
-    ML, GRAM,
+    ML, GRAM, KILO, LITRES, TEASPOONS, DECILITRES
 }
