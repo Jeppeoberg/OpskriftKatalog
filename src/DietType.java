@@ -1,4 +1,4 @@
 public enum DietType {
         MEAT,
-        VEGAN
+        VEGETARIAN
     }
