@@ -2,11 +2,14 @@ package UI;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import Ingredients.FileReader;
+import Ingredients.Ingredients;
 
 public class OpskriftKatalog {
 
     static Scanner scanner = new Scanner(System.in);
     static ArrayList<String> recipes = new ArrayList<>();
+    FileReader handler = new FileReader();
 
     public static void main(String[] args){
 
@@ -87,4 +90,5 @@ public class OpskriftKatalog {
             System.out.println("Ugyldigt nummer.");
         }
     }
+
 }

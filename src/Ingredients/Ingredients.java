@@ -41,4 +41,5 @@ public abstract class Ingredients {
     public String toString() {
         return name + "," + amount + "," + units;
     }
+    public abstract String ShoppingList();
 }
