@@ -1,4 +1,4 @@
-enum class Diettype {
+enum class DietType {
         MEAT,
         VEGAN
     }

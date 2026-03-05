@@ -1,19 +1,15 @@
 public abstract class Opskrifter {
 
         private String name;
-        private boolean containsMeat;
+        private DietType dietType;
 
-        public Recipe(String name, boolean containsMeat) {
+        public Recipe(String name, DietType dietType) {
             this.name = name;
-            this.containsMeat = containsMeat;
+            this.dietType = dietType;
         }
 
-        public String getName() {
-            return name;
-        }
-
-        public boolean containsMeat() {
-            return containsMeat;
+        public DietType getDietType() {
+            return dietType;
         }
     }
 
