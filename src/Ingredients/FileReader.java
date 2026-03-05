@@ -11,7 +11,7 @@ public class FileReader {
 
         try {
 
-            writer = new FileWriter("src\\Lesson15\\Recipes\\shopping_list.txt");
+            writer = new FileWriter();
 
             for (Ingredients ingredient : ingredients) {
 
