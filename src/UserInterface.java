@@ -3,11 +3,11 @@ import java.util.Scanner;
 //Isak
 public class UserInterface {
     private String opskrift;
-    private Scanner scanner;
+    private Scanner Scanner;
 
     public UserInterface(Scanner scanner, String opskrift){
         this.opskrift = opskrift;
-        this.scanner = scanner;
+        this.nner = scanner;
     }
 
     System.out.println("Velkommen til Opskrifts Kataloget!");
