@@ -11,18 +11,18 @@ public class FileReader {
 
         try {
 
-            writer = new FileWriter();
+            writer = new FileWriter("src\\Shopping List.txt");
 
             for (Ingredients ingredient : ingredients) {
 
-                // Polymorphism in action
+
                 writer.write(ingredient.ShoppingList());
 
-                // FileWriter has no newLine() method
+
                 writer.write("\n");
             }
 
-            writer.flush(); // ensure data is written
+            writer.flush();
 
         } catch (IOException e) {
             e.printStackTrace();
