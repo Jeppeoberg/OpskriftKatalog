@@ -33,4 +33,8 @@ public class OpskriftKatalog {
         System.out.println("Dit valg");
     }
 
+    private static void addRecipes() {
+        System.out.print("Titel: ");
+        String titel = scanner.nextLine();
+    }
 }
